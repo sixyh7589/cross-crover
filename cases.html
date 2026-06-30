@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>시공사례 - CROSS CROVER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">CROSS CROVER</a>
+  <ul class="nav-menu">
+    <li><a href="index.html">홈</a></li>
+    <li><a href="about.html">회사소개</a></li>
+    <li><a href="cases.html">시공사례</a></li>
+    <li class="dropdown">
+      <a href="#">운영 안내 ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="solution.html">솔루션(PM)</a></li>
+        <li><a href="business.html">사업 분야</a></li>
+      </ul>
+    </li>
+    <li><a href="notice.html">공지사항</a></li>
+  </ul>
+</nav>
+
+<!-- 히어로 -->
+<section class="page-hero">
+  <span class="section-label">CROSS CROVER · 시공사례</span>
+  <h1>크로스 크로버와 함께한<br>시공 현장</h1>
+  <p>다양한 프로젝트를 통해 쌓아온<br>크로스 크로버의 실력을 확인해보세요</p>
+</section>
+
+<!-- 필터 + 카드 -->
+<section class="cases-section section">
+  <div class="container">
+
+    <!-- 필터 -->
+    <div class="filter-wrap">
+      <div class="filter-group">
+        <span class="filter-label">유형</span>
+        <div class="filter-btns" data-filter="type">
+          <button class="filter-btn active" data-value="all">전체</button>
+          <button class="filter-btn" data-value="신축">신축</button>
+          <button class="filter-btn" data-value="주택">주택</button>
+          <button class="filter-btn" data-value="컨설팅">컨설팅</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">지역</span>
+        <div class="filter-btns" data-filter="region">
+          <button class="filter-btn active" data-value="all">전체</button>
+          <button class="filter-btn" data-value="서울">서울</button>
+          <button class="filter-btn" data-value="경기">경기</button>
+          <button class="filter-btn" data-value="충청">충청</button>
+          <button class="filter-btn" data-value="기타">기타</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">연면적</span>
+        <div class="filter-btns" data-filter="area">
+          <button class="filter-btn active" data-value="all">전체</button>
+          <button class="filter-btn" data-value="small">100㎡ 이하</button>
+          <button class="filter-btn" data-value="mid">100~300㎡</button>
+          <button class="filter-btn" data-value="large">300㎡ 이상</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 카드 그리드 -->
+    <div class="cases-grid">
+
+      <div class="case-card" data-type="신축" data-region="충청" data-area="large">
+        <div class="case-img">
+          <img src="images/case1.jpg" alt="청주 신축 상가">
+        </div>
+        <div class="case-info">
+          <span class="case-tag">신축</span>
+          <h3>청주 신축 상가건물</h3>
+          <p>충청 · 350㎡</p>
+        </div>
+      </div>
+
+      <div class="case-card" data-type="주택" data-region="경기" data-area="mid">
+        <div class="case-img">
+          <img src="images/case2.jpg" alt="경기 주택">
+        </div>
+        <div class="case-info">
+          <span class="case-tag">주택</span>
+          <h3>경기 단독주택 프로젝트</h3>
+          <p>경기 · 180㎡</p>
+        </div>
+      </div>
+
+      <div class="case-card" data-type="컨설팅" data-region="서울" data-area="large">
+        <div class="case-img">
+          <img src="images/case3.jpg" alt="서울 컨설팅">
+        </div>
+        <div class="case-info">
+          <span class="case-tag">컨설팅</span>
+          <h3>서울 부지 개발 컨설팅</h3>
+          <p>서울 · 420㎡</p>
+        </div>
+      </div>
+
+      <div class="case-card" data-type="신축" data-region="충청" data-area="mid">
+        <div class="case-img">
+          <img src="images/case4.jpg" alt="세종 신축">
+        </div>
+        <div class="case-info">
+          <span class="case-tag">신축</span>
+          <h3>세종 상업시설 신축</h3>
+          <p>충청 · 240㎡</p>
+        </div>
+      </div>
+
+      <div class="case-card" data-type="주택" data-region="기타" data-area="small">
+        <div class="case-img">
+          <img src="images/case5.jpg" alt="지방 주택">
+        </div>
+        <div class="case-info">
+          <span class="case-tag">주택</span>
+          <h3>전주 단독주택 리뉴얼</h3>
+          <p>기타 · 85㎡</p>
+        </div>
+      </div>
+
+      <div class="case-card" data-type="신축" data-region="경기" data-area="large">
+        <div class="case-img">
+          <img src="images/case6.jpg" alt="경기 신축">
+        </div>
+        <div class="case-info">
+          <span class="case-tag">신축</span>
+          <h3>수원 복합 상가 신축</h3>
+          <p>경기 · 500㎡</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>상호명: CROSS CROVER</p>
+    <p>주소: 충청북도 청주시 상당구 사직대로361번길 158-10 2층</p>
+    <p>이메일: hanyd8448@gmail.com</p>
+    <p>사업자등록번호: 816-87-02710</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
